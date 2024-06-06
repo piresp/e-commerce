@@ -8,7 +8,7 @@ const initialState: CounterState = {
   value: 0,
 };
 
-export const cartSlice = createSlice({
+export const sliceCart = createSlice({
   name: 'counter',
   initialState,
   reducers: {
@@ -22,6 +22,6 @@ export const cartSlice = createSlice({
   },
 });
 
-export const { increment, decrement } = cartSlice.actions;
+export const { increment, decrement } = sliceCart.actions;
 
-export default cartSlice.reducer;
+export default sliceCart.reducer;

@@ -1,18 +1,22 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { cartSlice } from "./sliceCart";
+import { sliceCart } from "./sliceCart";
+import { sliceModals } from "./sliceModals";
 
 // Define your state interface here
-interface RootState {
-  cart: ReturnType<typeof cartSlice.reducer>;
+export interface ReduxRootState {
+  cart: ReturnType<typeof sliceCart.reducer>;
+  modals: ReturnType<typeof sliceModals.reducer>;
 }
 
-const initialState: RootState = {
-  cart: cartSlice.getInitialState(),
+const initialState: ReduxRootState = {
+  cart: sliceCart.getInitialState(),
+  modals: sliceModals.getInitialState(),
 };
 
 const store = configureStore({
   reducer: {
-    cart: cartSlice.reducer
+    cart: sliceCart.reducer,
+    modals: sliceModals.reducer
   },
   preloadedState: initialState,
 });
