@@ -1,8 +1,15 @@
+import { controllerModalShopCart } from "@/redux/sliceModals";
 import { ShoppingBagIcon } from "@heroicons/react/24/outline";
+import { useDispatch } from "react-redux";
 
 const Cart = () => {
+  const dispatch = useDispatch()
+
   return (
-    <div className="flex gap-2 cursor-pointer">
+    <div
+      className="flex gap-2 cursor-pointer"
+      onClick={() => dispatch(controllerModalShopCart())}
+    >
       <ShoppingBagIcon
         height="24px"
         width="24px"
