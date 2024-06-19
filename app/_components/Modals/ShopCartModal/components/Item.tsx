@@ -22,7 +22,7 @@ const Item = ({ ...props }: ClothesItem) => {
       <div className="ml-2 w-full py-5 self-center flex flex-col col-start-2">
         <span className="text-zinc-950 text-xl">{props.title}</span>
         <span className="text-zinc-500 text-base">{props.subtitle}</span>
-        <span className="text-zinc-950 text-base">{props.price}</span>
+        <span className="text-zinc-950 text-base">{`R$ ${props.price}`}</span>
       </div>
       <div className="w-full self-center col-start-3">
         <div className="flex self-center gap-3 place-content-center">
@@ -30,7 +30,7 @@ const Item = ({ ...props }: ClothesItem) => {
             className="w-3 h-3 text-zinc-400 cursor-pointer self-center"
             onClick={() => dispatch(decreaseItemQuantity(props.id))}
           />
-          <span className="text-zinc-950">{props.quantity}</span>
+          <span className="text-zinc-950 select-none">{props.quantity}</span>
           <PlusIcon
             className="w-3 h-3 text-zinc-400 cursor-pointer self-center"
             onClick={() => dispatch(increaseItemQuantity(props.id))}

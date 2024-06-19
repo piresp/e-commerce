@@ -9,14 +9,14 @@ import { useDispatch, useSelector } from "react-redux";
 import { SignedIn, SignedOut } from "@clerk/nextjs";
 
 const Resume = () => {
-  const { total, totalFormatted } = useSelector(selectCartSlice);
+  const { totalFormatted } = useSelector(selectCartSlice);
 
   return (
     <div className="flex flex-col h-[360px] w-[470px] bg-zinc-200 bg-opacity-40 rounded-2xl p-8 gap-5">
       <h2 className="text-zinc-900 font-semibold text-lg">Resume</h2>
       <div className="flex justify-between mt-4">
         <span className="text-zinc-600 text-base">Total:</span>
-        <span className="text-zinc-800 text-base">R$ 00,00</span>
+        <span className="text-zinc-800 text-base">{totalFormatted}</span>
       </div>
       <div className="border-t border-zinc-200" />
       <div className="flex justify-between">
@@ -53,7 +53,7 @@ const buttonFinalizePurchase = () => {
       </SignedIn>
       <SignedOut>
         <button
-          className="btn btn-info mt-auto text-zinc-100"
+          className="btn btn-warning mt-auto text-zinc-100"
           onClick={() => {
             router.push("/sign-in");
             dispatch(controllerModalShopCart());

@@ -14,7 +14,7 @@ import { selectCartSlice } from "@/redux/sliceCart";
 const ShopCartModal = () => {
   const dispatch = useDispatch();
   const { modalCart } = useSelector(selectModalControllers);
-  const { items, total, totalFormatted } = useSelector(selectCartSlice);
+  const { items } = useSelector(selectCartSlice);
 
   useEscapeKeyHandler(
     "Escape",
