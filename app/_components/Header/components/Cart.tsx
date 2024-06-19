@@ -1,9 +1,11 @@
+import { selectCartSlice } from "@/redux/sliceCart";
 import { controllerModalShopCart } from "@/redux/sliceModals";
 import { ShoppingBagIcon } from "@heroicons/react/24/outline";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 
 const Cart = () => {
   const dispatch = useDispatch()
+  const { numberOfItens } = useSelector(selectCartSlice)
 
   return (
     <div
@@ -16,7 +18,7 @@ const Cart = () => {
         color="#fff"
         className="hover:text-zinc-300 duration-500"
       />
-      <span className="hover:text-zinc-300 duration-500">0</span>
+      <span className="hover:text-zinc-300 duration-500">{numberOfItens}</span>
     </div>
   );
 };

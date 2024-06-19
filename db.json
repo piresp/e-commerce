@@ -1,0 +1,172 @@
+{
+  "clothes": [
+    {
+      "id": 1,
+      "title": "Lorem ipsum dolor sit amet.",
+      "subtitle": "Orci phasellus egestas tellus rutrum.",
+      "price": "76,00",
+      "img": "https://img.lojasrenner.com.br/item/675051973/large/2.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Curabitur vehicula libero at.",
+      "subtitle": "Nisl tincidunt eget nullam non nisi est sit.",
+      "price": "70,00",
+      "img": "https://img.lojasrenner.com.br/item/927497121/large/3.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Vivamus lacinia odio vitae.",
+      "subtitle": "Nisl tincidunt eget nullam non nisi est sit.",
+      "price": "98,00",
+      "img": "https://img.lojasrenner.com.br/item/916270959/large/3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Vivamus lacinia odio vitae.",
+      "subtitle": "Sit amet massa vitae tortor condimentum.",
+      "price": "85,00",
+      "img": "https://img.lojasrenner.com.br/item/894657810/large/3.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Integer vel sapien id.",
+      "subtitle": "Sit amet massa vitae tortor condimentum.",
+      "price": "86,00",
+      "img": "https://img.lojasrenner.com.br/item/912652731/large/3.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Phasellus ac massa quis.",
+      "subtitle": "Arcu risus quis varius quam quisque id diam.",
+      "price": "89,00",
+      "img": "https://img.lojasrenner.com.br/item/879666451/large/3.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Suspendisse potenti. In.",
+      "subtitle": "Imperdiet massa tincidunt nunc pulvinar sapien.",
+      "price": "28,00",
+      "img": "https://img.lojasrenner.com.br/item/894657810/large/3.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Mauris ac justo ut.",
+      "subtitle": "Arcu risus quis varius quam quisque id diam.",
+      "price": "19,00",
+      "img": "https://img.lojasrenner.com.br/item/919246874/large/3.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Phasellus ac massa quis.",
+      "subtitle": "Turpis egestas integer eget aliquet.",
+      "price": "86,00",
+      "img": "https://img.lojasrenner.com.br/item/691848923/large/3.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Phasellus ac massa quis.",
+      "subtitle": "Nisl tincidunt eget nullam non nisi est sit.",
+      "price": "88,00",
+      "img": "https://img.lojasrenner.com.br/item/895254570/large/3.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Suspendisse potenti. In.",
+      "subtitle": "Mauris a diam maecenas sed enim ut sem.",
+      "price": "18,00",
+      "img": "https://img.lojasrenner.com.br/item/898256474/large/3.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Suspendisse potenti. In.",
+      "subtitle": "Sit amet massa vitae tortor condimentum.",
+      "price": "82,00",
+      "img": "https://img.lojasrenner.com.br/item/922855291/large/2.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Phasellus ac massa quis.",
+      "subtitle": "Orci phasellus egestas tellus rutrum.",
+      "price": "21,00",
+      "img": "https://img.lojasrenner.com.br/item/894063296/large/3.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Suspendisse potenti. In.",
+      "subtitle": "Imperdiet massa tincidunt nunc pulvinar sapien.",
+      "price": "18,00",
+      "img": "https://img.lojasrenner.com.br/item/927841235/large/3.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Mauris ac justo ut.",
+      "subtitle": "In dictum non consectetur a erat nam.",
+      "price": "19,00",
+      "img": "https://img.lojasrenner.com.br/item/895255839/large/3.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Vivamus lacinia odio vitae.",
+      "subtitle": "In dictum non consectetur a erat nam.",
+      "price": "17,00",
+      "img": "https://img.lojasrenner.com.br/item/927054320/large/3.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Curabitur vehicula libero at.",
+      "subtitle": "Imperdiet massa tincidunt nunc pulvinar sapien.",
+      "price": "12,00",
+      "img": "https://img.lojasrenner.com.br/item/927264571/large/3.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Suspendisse potenti. In.",
+      "subtitle": "Sit amet massa vitae tortor condimentum.",
+      "price": "97,00",
+      "img": "https://img.lojasrenner.com.br/item/919845893/large/3.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Integer vel sapien id.",
+      "subtitle": "Orci phasellus egestas tellus rutrum.",
+      "price": "97,00",
+      "img": "https://img.lojasrenner.com.br/item/914463335/large/3.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Lorem ipsum dolor sit amet.",
+      "subtitle": "Sit amet massa vitae tortor condimentum.",
+      "price": "19,00",
+      "img": "https://img.lojasrenner.com.br/item/897660192/large/3.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Suspendisse potenti. In.",
+      "subtitle": "In dictum non consectetur a erat nam.",
+      "price": "79,00",
+      "img": "https://img.lojasrenner.com.br/item/916270431/large/3.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Curabitur vehicula libero at.",
+      "subtitle": "Sit amet massa vitae tortor condimentum.",
+      "price": "91,00",
+      "img": "https://img.lojasrenner.com.br/item/927260094/large/3.jpg"
+    },
+    {
+      "id": 23,
+      "title": "Suspendisse potenti. In.",
+      "subtitle": "Sit amet massa vitae tortor condimentum.",
+      "price": "78,00",
+      "img": "https://img.lojasrenner.com.br/item/927082953/large/3.jpg"
+    },
+    {
+      "id": 24,
+      "title": "Vivamus lacinia odio vitae.",
+      "subtitle": "Sit amet massa vitae tortor condimentum.",
+      "price": "40,00",
+      "img": "https://img.lojasrenner.com.br/item/927509275/large/3.jpg"
+    }
+  ]
+}

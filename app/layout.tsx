@@ -1,8 +1,8 @@
+import { Provider } from "@/redux/provider";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import React from "react";
 import "./globals.css";
-import { Provider } from "@/redux/provider";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -20,10 +20,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <Provider>
-      <html lang="en">
-        <body className={roboto.className}>{children}</body>
-      </html>
-    </Provider>
+      <Provider>
+        <html lang="en">
+          <body className={roboto.className}>{children}</body>
+        </html>
+      </Provider>
   );
 }
